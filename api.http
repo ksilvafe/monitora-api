@@ -1,1 +1,18 @@
-GET http://localhost:3000
+
+
+GET http://localhost:3000/v1
+
+
+###
+POST http://localhost:3000/v1
+Content-Type: application/json
+
+{
+    "name": "route teste 1",
+    "source_id": "1",
+    "destination_id": "2"
+}
+
+
+###
+GET http://localhost:3000/v1
